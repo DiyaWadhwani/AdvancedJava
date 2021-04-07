@@ -5,6 +5,39 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+	
+	<script type="text/javascript">
+
+function validate() {
+	console.log("inside if script1");
+	
+	var usn = document.f1.studUSN.value;
+	var name = document.f1.studName.value;
+	var email = document.f1.studEmail.value;
+	var branch = document.f1.studBranch.value;
+	var gpa = document.f1.studGPA.value;
+	var backs = document.f1.studBacklogs.value;
+	var year = document.f1.studGrad.value;
+	
+	var status = false;
+	
+	if(usn == null || usn.length < 10 || usn == "" || usn.length > 20) {
+		document.getElementById("usnLoc").innerHTML= alert("Please enter a valid USN");
+		console.log("inside if script2");
+		status = false;
+	}
+	else {
+		status = true;
+		console.log("inside else script3");
+	}
+	
+	return status;
+}
+	
+
+	
+	
+</script>
 
 <link rel = "stylesheet" href = "design.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">

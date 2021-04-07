@@ -1,0 +1,10 @@
+com\wolken\wolkenapp\custom\StringException.class
+com\wolken\wolkenapp\custom\PlayersException.class
+com\wolken\wolkenapp\custom\EmptyException.class
+com\wolken\wolkenapp\service\TeamService.class
+com\wolken\wolkenapp\controller\TeamController.class
+com\wolken\wolkenapp\custom\IDException.class
+com\wolken\wolkenapp\service\TeamServiceImpl.class
+com\wolken\wolkenapp\dao\TeamDAO.class
+com\wolken\wolkenapp\dto\TeamDTO.class
+com\wolken\wolkenapp\dao\TeamDAOImpl.class

@@ -5,42 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
-	
-	<script type="text/javascript">
-
-function validate() {
-	console.log("inside if script1");
-	
-	var usn = document.f1.studUSN.value;
-	var name = document.f1.studName.value;
-	var email = document.f1.studEmail.value;
-	var branch = document.f1.studBranch.value;
-	var gpa = document.f1.studGPA.value;
-	var backs = document.f1.studBacklogs.value;
-	var year = document.f1.studGrad.value;
-	
-	var status = false;
-	
-	if(usn == null || usn.length < 10 || usn == "" || usn.length > 20) {
-		document.getElementById("usnLoc").innerHTML= alert("Please enter a valid USN");
-		console.log("inside if script2");
-		status = false;
-	}
-	else {
-		status = true;
-		console.log("inside else script3");
-	}
-	
-	return status;
-}
-	
-
-	
-	
-</script>
 
 <link rel = "stylesheet" href = "design.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
 
 </head>
 
@@ -57,23 +27,67 @@ function validate() {
 		color: white;
 		opacity: 0.7;
 	}
-		
+	
+	input, select, textarea{
+    color: #ff0000;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+
 </style>
 
 <body style = "text-align: center">
+
+<script type="text/javascript">
+
+function validate() {
+	console.log("inside if script1");
+	
+	var usn = document.f1.studUSN.value;
+	var name = document.f1.studName.value;
+	var email = document.f1.studEmail.value;
+	var branch = document.f1.studBranch.value;
+	var gpa = document.f1.studGPA.value;
+	var backs = document.f1.studBacklogs.value;
+	var year = document.f1.studGrad.value;
+	
+	var status = false;
+	
+	if(usn == null || usn.length < 10 || usn == "" || usn.length > 20) {
+		document.getElementById("usnLoc") = alert("Please enter a valid USN");
+		console.log("inside if script2");
+		status = false;
+	}
+	else {
+		status = true;
+		console.log("inside else script3");
+	}
+	
+	return status;
+}
+	
+
+	
+	
+</script>
+
 
 <div class = "header"><!--  style = "color: black"> -->
 		<h1>Welcome to AMH Portal</h1>
 </div>
 
-	<form action = "register.do">
+	<form name = "f1" action = "register.do" onsubmit = "return validate()" method = "post">
 	
 		<div class = "align">
 	
 		<h2>Please enter the following details to register</h2> <br>
 		
 		USN :
-			<input type = "text" name = "studUSN" placeholder = "Enter USN"> <br><br>
+			<input id ="usn" type = "text" name = "studUSN" placeholder = "Enter USN"> <br><br>
+			<span id = "usnLoc" style = "color: red"></span>
+			
 		Name : 
 			<input type = "text" name = "studName" placeholder = "Enter Name"> <br><br>
 		Email : 

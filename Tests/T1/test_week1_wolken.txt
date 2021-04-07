@@ -1,0 +1,22 @@
+What is an Object?
+
+What is a Class?
+
+What is variables? why we use variables?
+
+What are instance variables?
+
+What is a static variable?
+
+What is the difference between class variable and instance variable?
+
+How will you create an object? with example?
+
+What is a method?
+
+what is method overloading?  
+
+Practical
+method overloading
+print month of year
+factorial 

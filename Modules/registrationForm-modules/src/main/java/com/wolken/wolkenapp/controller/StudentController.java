@@ -25,6 +25,6 @@ public class StudentController {
 		String message = studService.validateAndRegister(studentDTO);
 		
 		req.setAttribute("message", message);
-		return "showMsg.jsp";
+		return "login.jsp";
 	}
 }

@@ -10,13 +10,16 @@ import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.stereotype.Component;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
+//@Getter
+//@Setter
+//@NoArgsConstructor
+
+@Data
 
 @Entity
 @Table(name = "student_details")
@@ -43,6 +46,9 @@ public class StudentEntity {
 	
 	@Column(name = "studEmail")
 	private String studEmail;
+	
+	@Column(name = "studDOB")
+	private String studDOB;
 	
 	@Column(name = "studBranch")
 	private String studBranch;

@@ -7,7 +7,7 @@
   <display-name>registrationForm-modules</display-name>
   
   <welcome-file-list>
-  	<welcome-file>registration.jsp</welcome-file>
+  	<welcome-file>login.jsp</welcome-file>
   </welcome-file-list>
   
   <servlet>

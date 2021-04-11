@@ -11,6 +11,6 @@
 </head>
 <body style = "text-align: center">
 	<h1>${message}</h1>
-	<a href = "registration.jsp"> Go Back to home page</a>
+	<a href = "login.jsp"> Go Back to home page</a>
 </body>
 </html>

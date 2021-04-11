@@ -35,14 +35,14 @@
 	}
 	
 	.align {
-	 padding-top: 100px;
+	 padding-top: 80px;
 	 }
 	
 	.transbox {
 		margin-left : 295px;
 		margin-right : 280px;
 		margin-bottom : 180px;
-		padding-bottom : 50px;
+		padding-bottom : 20px;
 		margin-top : 55px;
 		background-color: LightYellow;
 		opacity: 0.7;
@@ -71,7 +71,7 @@ function validate() {
 	
 	console.log("inside if script1");
 	
-	 var usn = document.f1.studUSN.value;
+	 var usn = document.f1.studUSN;
 	/*var name = document.f1.studName.value;
 	var email = document.f1.studEmail.value;
 	var branch = document.f1.studBranch.value;
@@ -79,10 +79,8 @@ function validate() {
 	var backs = document.f1.studBacklogs.value;
 	var year = document.f1.studGrad.value; */
 	
-	 var status = false; 
-	
 	if(usn == null || usn.length < 10 || usn == "" || usn.length > 20) {
-		document.getElementById("usnLoc").innerHTML = "Please enter a valid USN<br>";
+		alert("Please enter a valid USN");
 		console.log("inside if script2");
 		status = false;
 	}

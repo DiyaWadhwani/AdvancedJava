@@ -59,6 +59,7 @@ public class StudentServiceImpl implements StudentService {
 						studentEntity.setStudUSN(studentDTO.getStudUSN());
 						studentEntity.setStudName(studentDTO.getStudName());
 						studentEntity.setStudEmail(studentDTO.getStudEmail());
+						studentEntity.setStudDOB(studentDTO.getStudDOB());
 						studentEntity.setStudBranch(studentDTO.getStudBranch());
 						studentEntity.setStudGPA(studentDTO.getStudGPA());
 						studentEntity.setStudBacks(studentDTO.getStudBacks());

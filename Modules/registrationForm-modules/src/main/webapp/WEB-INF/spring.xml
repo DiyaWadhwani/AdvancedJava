@@ -13,6 +13,9 @@
 	<property name="annotatedClasses">
 		<list>
 			<value>com.wolken.wolkenapp.entity.StudentEntity</value>
+			<value>com.wolken.wolkenapp.entity.LoginEntity</value>
+			<value>com.wolken.wolkenapp.entity.EditProfileEntity</value>
+			<value>com.wolken.wolkenapp.entity.SubjectsEntity</value>
 		</list>
 	</property>
 </bean>

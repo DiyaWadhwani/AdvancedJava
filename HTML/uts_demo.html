@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("C:/Users/diya/Downloads/uts_bg_.jpg");
+            background-repeat: no-repeat;
+            background-size: 1400px 625px;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        /* div.transbox {
+            margin: 10px;
+            margin-top: 100px;
+            margin-left: 350px;
+            margin-right: 350px;
+            background-color: #ffffff;
+            border-style: dotted;
+            border-color: black;
+            border-width: 5px;
+            border-radius: 8px;
+            opacity: 0.8;
+        } */
+
+        input[type=text] {
+            padding: 10px 20px;
+            margin: 8px;
+            box-sizing: border-box;
+            border-width: 3px;
+        }
+
+        input[type=text]::placeholder {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        input[type=tel] {
+            padding: 10px 20px;
+            margin: 8px;
+            box-sizing: border-box;
+            border-width: 3px;
+        }
+
+        input[type=tel]::placeholder {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        input[type=button] {
+            font-size: 15px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 12px 40px;
+            text-decoration: none;
+            margin: 2px 2px;
+            cursor: pointer;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            border-radius: 8px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="transbox"></div> -->
+
+    <form action="register">
+
+        <h1 style="color: white;">
+            UNDER THE STARS
+        </h1>
+
+        <h4 style="color: white;">
+            Register with us to watch your favourite movies UnderTheStars
+        </h4>
+
+        <div>
+
+            Name :
+        <input type="text" name="name" placeholder="Enter Name">
+        <br><br>
+        Phone Number :
+        <input type="tel" name="phnum" placeholder="xxxxx-xxxxx">
+        <br><br>
+        Group Size :
+        
+        <div style="vertical-align: middle;">
+            <input type="radio" name="grpsize" id="single">
+
+        Single <br>
+        <input type="radio" name="grpsize" id="couple">
+        Couple <br>
+        <input type="radio" name="grpsize" id="3to6">
+        3-6 <br>
+        <input type="radio" name="grpsize" id="7to10">
+        7-10 <br>
+        <input type="radio" name="grpsize" id="10plus">
+        More than 10<br><br><br>
+
+    </div>
+
+        <input type="button" value="REGISTER">
+        </div>
+
+        
+
+        <!-- </div> -->
+    </form>
+</body>
+
+</html>

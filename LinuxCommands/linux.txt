@@ -1,0 +1,158 @@
+    1  ls
+    2  clear
+    3  ls
+    4  mkdir testingGit
+    5  ls
+    6  ls -l
+    7  ls /testingGit
+    8  ls testingGit
+    9  ls testingGit/
+   10  cd testingGit
+   11  cd ..
+   12  cd testingGit/
+   13  cd testingGit
+   14  cd ..
+   15  cd testingGit
+   16  touch sampleFile
+   17  ls
+   18  touch sampleFile.txt
+   19  ls
+   20  nano newFile
+   21  ls
+   22  rm sampleFile.txt
+   23  ls
+   24  ls -l
+   25  cat newFile
+   26  nano newFile
+   27  cat newFile
+   28  ls
+   29  rm sampleFile
+   30  ls
+   31  clear
+   32  ls --help
+   33  ls
+   34  ls -a
+   35  git init
+   36  ls -a
+   37  git status
+   38  git add newFile
+   39  git status
+   40  git commit
+   41  git init
+   42  ls -a
+   43  git status
+   44  git add mall-spring-annotation
+   45  git status
+   46  git commit -m "spring annotation implementation"
+   47  ls -a
+   48  rm -r .git/
+   49  ls
+   50  ls -l
+   51  cd testingGit
+   52  ls -a
+   53  git status
+   54  git commit -m "my first commit"
+   55  git branch -M main
+   56  git remote add origin https://github.com/DiyaWadhwani/sampleRepo.git
+   57  git push -u origin main
+   58  clear
+   59  ls -a
+   60  rm -r .git/
+   61  rm dir -R .git/
+   62  ls -a
+   63  rm -R .git/
+   64  rm -rf .git/
+   65  ls -a
+   66  history
+   67  ps -elf
+   68  ps --help
+   69  ps -a
+   70  ~
+   71  ls -a
+   72  touch dya.txt
+   73  nano dya.txt
+   74  cat dya.txt
+   75  cp dya.txt ddw.txt
+   76  cat ddw.txt
+   77  rm dya.txt
+   78  ls
+   79  ls -a
+   80  rm ddw.txt
+   81  ls
+   82  clear
+   83  ls
+   84  cd Document
+   85  cd Documents
+   86  ls
+   87  mkdir LinuxCommands
+   88  ls
+   89  cd LinuxCommands
+   90  ls
+   91  touch dya.txt
+   92  nano dya.txt
+   93  cat dya.txt
+   94  cp dya.txt ddw.txt
+   95  ls
+   96  cat ddw.txt
+   97  cat dya.txt
+   98  rm dya.txt
+   99  ls
+  100  mv ddw.txt dyaw.txt
+  101  ls
+  102  cat dyaw.txt
+  103  hsitory
+  104  history
+  105  ls
+  106  cd LinuxCommands
+  107  ls
+  108  history > linux.txt
+  109  ls
+  110  cat linux.txt
+  111  git clone https://github.com/edurekavivekh/linux-content.git
+  112  ls
+  113  cd linux-content/
+  114  ls
+  115  ls -l
+  116  cat data.csv
+  117  find . -name *.pdf
+  118  find . -linux_problem_sheet *.pdf
+  119  cd ..
+  120  find . -name *.pdf
+  121  grep MECHANIC data.csv
+  122  cd linux-content/
+  123  grep MECHANIC data.csv
+  124  grep -i albert data.csv
+  125  grep -i deputy data.csv
+  126  cd ..
+  127  ls
+  128  ls | grep -v /
+  129  cd linux-content/
+  130  ls | grep -v /
+  131  grep -v CAPTAIN data.csv
+  132  ls | grep -v / data.csv
+  133  ls | grep -v data.csv
+  134  cd ..
+  135  env | grep USER
+  136  echo Happy Vishu
+  137  echo $USERNAME
+  138  ls
+  139  cat linux.txt
+  140  history
+  141  history > linux.txt
+  142  ls
+  143  cat linux.txt
+  144  history 25 > linux.txt
+  145  cat linux.txt
+  146  history > linux.txt
+  147  cat linux.txt
+  148  echo '#linux' dia.txt
+  149  ls
+  150  cd linux-content/
+  151  ls
+  152  cat README.md
+  153  cd ..
+  154  ls
+  155  echo '#linux' >> dia.txt
+  156  ls
+  157  cat dia.txt
+  158  history > linux.txt

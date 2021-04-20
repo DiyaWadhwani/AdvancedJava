@@ -1,0 +1,5 @@
+com\wolken\wolkenapp\entity\ShopperEntity.class
+com\wolken\wolkenapp\repository\ShopperRepo.class
+com\wolken\wolkenapp\ServletInitializer.class
+com\wolken\wolkenapp\ShopperSpringbootApplication.class
+com\wolken\wolkenapp\resources\ShopperResources.class
